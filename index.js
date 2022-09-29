@@ -64,6 +64,9 @@
     }else {
         message=" Leider verloren."
         isAlive=false
+        kartenText.textContent= "Karten: "
+        textErgebnis.textContent= "Ergebnis: "
+        sum=0
     }
 
     let thingsInText= "Ergebnis: "+sum + "! " + message
