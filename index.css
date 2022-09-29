@@ -1,0 +1,64 @@
+body{
+    background-image: url("grass.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin-top:20%;
+    margin-left: 50%;
+    transform:translate(-50%,-50%);
+
+
+}
+
+h1 {
+    font-size:50px;
+    color: goldenrod;
+    text-align: center;
+}
+
+button{
+       
+    color:white;
+    
+    border-radius: 5px;
+    width:250px;
+}
+#main-btn{
+    margin-top:10%;
+    margin-left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: transparent;
+    border-color: aliceblue;
+    font-size:40px;
+}
+#main-btn2{
+    margin-top:10%;
+    margin-left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: transparent;
+    border-color: aliceblue;
+    font-size:40px;
+}
+
+#sep-btn{
+    margin-top:-40%;
+    margin-left:50%;
+    transform:translate(-50%,-50%);
+    width: 500;
+    background-color: wheat;
+    font-size:40px;
+    color:red;
+    text-align: left;
+}
+#sep-btn2{
+    margin-top:-20%;
+    margin-left:50%;
+    transform:translate(-50%,-50%);
+    width: 500;
+    background-color: wheat;
+    font-size:40px;
+    color:red;
+    text-align: left;
+    border-color:transparent;
+}
