@@ -49,6 +49,13 @@
  let kartenText=document.getElementById("sep-btn")
  let textErgebnis=document.getElementById("sep-btn2")
 
+ function claning() {
+    
+    kartenText.textContent= "Karten: "
+    textErgebnis.textContent= "Ergebnis: "
+    sum=0
+}
+
  function drawCard() {
     cardDraw=Math.floor(Math.random()*(11 -2 +1)) +2
     sum=sum+cardDraw
@@ -61,26 +68,21 @@
     }else if (summing===21){
         message=" Blackjack!"
         blackJack=true
+        claning()
     }else {
         message=" Leider verloren."
         isAlive=false
-        kartenText.textContent= "Karten: "
-        textErgebnis.textContent= "Ergebnis: "
-        sum=0
+        claning()
+        
     }
 
-    let thingsInText= "Ergebnis: "+sum + "! " + message
+    let thingsInText= "Ergebnis: "+summing + "! " + message
     textErgebnis.textContent= thingsInText
 
  } 
 
  
- function claning() {
-    
-    kartenText.textContent= "Karten: "
-    textErgebnis.textContent= "Ergebnis: "
-    sum=0
-}
+ 
 
 
 // funktion Knopfdruck löschen aller inhalte
