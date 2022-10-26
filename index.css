@@ -1,6 +1,7 @@
 body{
     background-image: url("grass.jpg");
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .container {
@@ -36,7 +37,8 @@ button{
     margin-top:10%;
     margin-left: 50%;
     transform:translate(-50%,-50%);
-    background-color: transparent;
+    background-color: goldenrod;
+    color: black;
     border-color: aliceblue;
     font-size:40px;
 }
